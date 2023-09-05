@@ -135,7 +135,7 @@ a {
 .right-header p {
   margin: 1.5rem 0;
   line-height: 2rem;
-  color: white;
+  color: black;
   font-weight: 400;
 }
 .right-header h1 {
@@ -209,4 +209,64 @@ a {
   font-size: 2rem;
   text-transform: uppercase;
   color: var(--color-white);
+}
+.controls {
+  position: fixed;
+  z-index: 10;
+  top: 50%;
+  right: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-50%);
+}
+.controls .control {
+  padding: 1rem;
+  cursor: pointer;
+  background-color: grey;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.7rem 0;
+  box-shadow: var(--box-shadow-1);
+}
+.controls .control i {
+  font-size: 1.2rem;
+  color: grey;
+  pointer-events: none;
+}
+.controls .active-btn {
+  background-color: purple;
+  transition: all 0.4s ease-in-out;
+}
+.controls .active-btn i {
+  color: white;
+}
+
+.theme-btn {
+  top: 5%;
+  right: 3%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: purple;
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.1s ease-in-out;
+}
+.theme-btn:active {
+  transform: translateY(-3px);
+}
+.theme-btn i {
+  font-size: 1rem;
+  color: grey;
+  pointer-events: none;
 }
