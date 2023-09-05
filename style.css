@@ -41,9 +41,9 @@ body {
 }
 
 header {
-  min-height: 100vh;
-  color: var(--color-white);
-  overflow: hidden;
+  /*min-height: 100vh;*/
+  color: black;
+  /*overflow: hidden;*/
   padding: 0 !important;
 }
 
