@@ -204,6 +204,7 @@ a {
   color: var(--color-grey0);
   font-size: 20px;
   letter-spacing: 0.02vh;
+  text-align:justify;
 }
 .about-container .left-about h4 {
   font-size: 2rem;
