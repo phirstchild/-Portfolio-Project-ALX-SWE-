@@ -143,7 +143,7 @@ a {
 
 /*STYLES OF THE ABOUT ME PAGE */
 .about-container {
-  display: grid;
+  display: block;
   grid-template-columns: repeat(2, 1fr);
   padding-top: 4rem;
   padding-bottom: 5rem;
