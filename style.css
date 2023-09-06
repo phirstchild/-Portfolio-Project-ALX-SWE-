@@ -224,7 +224,7 @@ a {
 .controls .control {
   padding: 1rem;
   cursor: pointer;
-  background-color: grey;
+  background-color: orange;
   width: 55px;
   height: 55px;
   border-radius: 50%;
@@ -236,11 +236,11 @@ a {
 }
 .controls .control i {
   font-size: 1.2rem;
-  color: grey;
+  color: black;
   pointer-events: none;
 }
 .controls .active-btn {
-  background-color: purple;
+  background-color: orange;
   transition: all 0.4s ease-in-out;
 }
 .controls .active-btn i {
@@ -253,7 +253,7 @@ a {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: purple;
+  background-color: orange;
   cursor: pointer;
   position: fixed;
   display: flex;
@@ -267,6 +267,6 @@ a {
 }
 .theme-btn i {
   font-size: 1rem;
-  color: grey;
+  color: black;
   pointer-events: none;
 }
