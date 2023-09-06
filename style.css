@@ -144,7 +144,6 @@ a {
 /*STYLES OF THE ABOUT ME PAGE */
 .about-container {
   display: block;
-  grid-template-columns: repeat(2, 1fr);
   padding-top: 4rem;
   padding-bottom: 5rem;
   justify-items: center;
@@ -197,6 +196,7 @@ a {
 .about-container .left-about {
   padding-right: 2rem;
   padding-left: 1rem;
+  margin-left: 1rem;
 }
 .about-container .left-about p {
   line-height: 1.5rem;
