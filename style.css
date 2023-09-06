@@ -146,7 +146,7 @@ a {
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding-top: 6rem;
+  padding-top: 4rem;
   padding-bottom: 5rem;
   justify-items: center;
 }
@@ -175,14 +175,14 @@ a {
 .about-container .right-about .about-item .abt-text .large-text {
   font-size: 2rem;
   font-weight: 700;
-  color: var(--color-secondary);
+  color: black;
 }
 .about-container .right-about .about-item .abt-text .small-text {
   padding-left: 3rem;
   position: relative;
   text-transform: uppercase;
   font-size: 1.2rem;
-  color: var(--color-grey-1);
+  color: black;
   letter-spacing: 2px;
 }
 .about-container .right-about .about-item .abt-text .small-text::before {
@@ -208,7 +208,7 @@ a {
 .about-container .left-about h4 {
   font-size: 2rem;
   text-transform: uppercase;
-  color: var(--color-white);
+  color: white;
 }
 .controls {
   position: fixed;
