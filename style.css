@@ -213,7 +213,7 @@ a {
   text-align:center;
 }
 .controls {
-  position: sticky;
+  position: fixed;
   z-index: 10;
   top: 50%;
   right: 3%;
