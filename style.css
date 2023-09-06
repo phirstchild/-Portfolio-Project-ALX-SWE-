@@ -141,7 +141,7 @@ a {
   color: #ffffff;
 }
 
-/*STYLES OF THE ABOUT ME PAGE */
+/*STYLES OF THE ABOUT ME PAGE 
 .about-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -185,13 +185,13 @@ a {
   letter-spacing: 2px;
 }
 .about-container .right-about .about-item .abt-text .small-text::before {
-  /*content: "";*/
+  /*content: "";
   position: absolute;
   left: 0;
   top: 15px;
   width: 2rem;
   height: 2px;
-  background-color: var(--color-grey-5);
+  background-color: var(--color-grey-5);*/
 }
 .about-container .left-about {
   padding-right: 2rem;
