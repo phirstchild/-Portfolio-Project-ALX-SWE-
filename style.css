@@ -148,7 +148,8 @@ a {
   padding-bottom: 5rem;
   justify-items: center;
   margin-top:5rem;
-  border:2px solid black;
+  border:15px solid black;
+  border-radius:50%;
 }
 /*.about-container .right-about {
   display: grid;
