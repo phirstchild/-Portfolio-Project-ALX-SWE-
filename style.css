@@ -224,37 +224,35 @@ a {
   letter-spacing:0.02vh;
 }
 
-  /*.contact-icon {
-      display: flex;
-      margin-top: 2rem;
-      #con {
-        display: flex;
-        align-items: center;
-        color: white;
-        background-color: #00ff6c;
-        cursor: pointer;
-        justify-content: center;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin: 0 0.4rem;
-        transition: all 0.4s ease-in-out;
-        margin-left:1rem;
-        &:hover {
-          background-color: var(--color-secondary);
-          #con i {
-            color: var(--color-primary);
-          }
-        }
-        #con i {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 1.3rem;
-        }
-      }
-    }
-  }*/
+.contact-content-con .left-contact .contact-icon {
+  display: flex;
+  margin-top: 2rem;
+}
+.contact-content-con .left-contact .contact-icon a {
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: #00ff6c;
+  cursor: pointer;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 0.4rem;
+  transition: all 0.4s ease-in-out;
+}
+.contact-content-con .left-contact .contact-icon a:hover {
+  background-color: black;
+}
+.contact-content-con .left-contact .contact-icon a:hover i {
+  color: orange;
+}
+.contact-content-con .left-contact .contact-icon a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
 .controls {
   position: fixed;
   z-index: 10;
