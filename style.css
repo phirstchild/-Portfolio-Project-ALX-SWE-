@@ -213,7 +213,7 @@ a {
   text-align:center;
 }
 
- .contact-icon {
+/*.contact-icon {
       display: flex;
       margin-top: 2rem;
       a {
@@ -242,7 +242,7 @@ a {
         }
       }
     }
-  }
+  }*/
 .controls {
   position: fixed;
   z-index: 10;
