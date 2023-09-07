@@ -224,11 +224,11 @@ a {
   letter-spacing:0.02vh;
 }
 
-.contact-content-con .left-contact .contact-icon {
+.contact-icons .contact-icon {
   display: flex;
   margin-top: 2rem;
 }
-.contact-content-con .left-contact .contact-icon a {
+.contact-icons .contact-icon a {
   display: flex;
   align-items: center;
   color: white;
@@ -241,13 +241,13 @@ a {
   margin: 0 0.4rem;
   transition: all 0.4s ease-in-out;
 }
-.contact-content-con .left-contact .contact-icon a:hover {
+.contact-icons .contact-icon a:hover {
   background-color: black;
 }
-.contact-content-con .left-contact .contact-icon a:hover i {
+.contact-icons .contact-icon a:hover i {
   color: orange;
 }
-.contact-content-con .left-contact .contact-icon a i {
+.contact-icons .contact-icon a i {
   display: flex;
   align-items: center;
   justify-content: center;
