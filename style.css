@@ -217,9 +217,12 @@ a {
   margin-left: 2rem;
   color: white;
   font-size:20px;
+  margin-top:2rem;
+  line-height:1.5rem;
+  letter-spacing:0.02vh;
 }
 
-/*.contact-icon {
+  .contact-icon {
       display: flex;
       margin-top: 2rem;
       a {
@@ -234,7 +237,7 @@ a {
         border-radius: 50%;
         margin: 0 0.4rem;
         transition: all 0.4s ease-in-out;
-        &:hover {
+        /*&:hover {
           background-color: var(--color-secondary);
           i {
             color: var(--color-primary);
@@ -247,8 +250,8 @@ a {
           font-size: 1.3rem;
         }
       }
-    }
-  }*/
+    }*/
+  }
 .controls {
   position: fixed;
   z-index: 10;
