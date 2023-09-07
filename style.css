@@ -216,7 +216,7 @@ a {
 .contact-icons h4{
   margin-left: 2rem;
   color: white;
-  font-size:20px;
+  font-size:25px;
   margin-top:2rem;
   line-height:1.5rem;
   letter-spacing:0.02vh;
@@ -228,8 +228,8 @@ a {
       #con {
         display: flex;
         align-items: center;
-        color: var(--color-white);
-        background-color: orange;
+        color: white;
+        background-color: #00ff6c;
         cursor: pointer;
         justify-content: center;
         width: 50px;
