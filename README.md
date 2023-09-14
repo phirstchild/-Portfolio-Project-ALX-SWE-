@@ -7,3 +7,5 @@ Technologies
 Below is a breakdown of the necessary technologies and considerations for completing this project:
 Languages: 
 HTML, CSS, JAVASCRIPT 
+https://zainabs-portfolio.netlify.app/
+https://www.linkedin.com/posts/zainab-sulaiman-23600214a_alx-alxafrica-softwaredevelopment-activity-7108144253582635008-b8Pl?utm_source=share&utm_medium=member_desktop
